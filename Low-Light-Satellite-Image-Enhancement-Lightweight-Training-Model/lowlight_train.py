@@ -51,8 +51,8 @@ def weights_init(m):
 def train(config):
     os.environ['CUDA_VISIBLE_DEVICES']='0'
     scale_factor = config.scale_factor
-    # DCE_net = model.simpleEnhanceNet(scale_factor).cuda() # proposed training model
-    DCE_net = model.EnhanceNet(scale_factor).cuda()  # original DCENet
+    DCE_net = model.simpleEnhanceNet(scale_factor).cuda() # proposed training model
+    # DCE_net = model.EnhanceNet(scale_factor).cuda()  # original DCENet
 
     # DCE_net.apply(weights_init)
     if config.load_pretrain == True:
@@ -122,7 +122,7 @@ def train(config):
 
         print()
 
-        if ((epoch + 1) % 4) == 0:
+        if ((epoch + 1) % 1) == 0:
             print("Saving Model " + config.snapshots_folder + "R6Epoch" + str((epoch + 1)) + '.pth' + " with Epoch " + str((epoch + 1)))
             torch.save(DCE_net.state_dict(), config.snapshots_folder + "R6Epoch" + str((epoch + 1)) + '.pth')
             print("Model Saved\n\n")
