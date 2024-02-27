@@ -16,7 +16,6 @@ URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10412123&isnumber
 **Step 2**: Compress the training weight **Post-training quantization**
 [compress_trained_weights.py](/Low-Light-Satellite-Image-Enhancement-Lightweight-Training-Model/compress_trained_weights.py)
 
-
-
+**Step 3**: Inference with the **Proposed Model**, including **Quantized Convolution** and **Piece-Wise** sigmoid function 
 
 Please reference this paper in your manuscript when you use this source code.
