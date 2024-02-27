@@ -10,7 +10,8 @@ keywords: {Satellites;Computational modeling;Image edge detection;Image enhancem
 URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10412123&isnumber=10330207
 
 
-
+**Step 1**: Training **Proposed Lightweight Model** 
+[lowlight_train.py](/Low-Light-Satellite-Image-Enhancement-Lightweight-Training-Model/lowlight_train.py)
 
 
 
