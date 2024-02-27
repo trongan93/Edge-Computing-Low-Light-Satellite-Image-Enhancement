@@ -19,4 +19,9 @@ URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10412123&isnumber
 **Step 3**: Inference with the **Proposed Model**, including **Quantized Convolution** and **Piece-Wise** sigmoid function 
 [main.cpp](/Inference/main.cpp)
 
+**Experiment Results**
+**1. Test case 1**
+![Raw 1 Edge-Computing-Low-Light-Satellite-Image-Enhancement](/Inference/paper_case1/_mnt_d_Seaport_satellite_images_lng_3.110000_lat_50.560000_sentinel_2_rgb.png)
+![Result 1 Edge-Computing-Low-Light-Satellite-Image-Enhancement](/Inference/paper_case1/_mnt_d_Seaport_satellite_images_lng_3.110000_lat_50.560000_sentinel_2_rgb_enhanced_onboard.png)
+
 Please reference this paper in your manuscript when you use this source code.
