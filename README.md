@@ -20,8 +20,15 @@ URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10412123&isnumber
 [main.cpp](/Inference/main.cpp)
 
 **Experiment Results**
-**1. Test case 1**
-![Raw 1 Edge-Computing-Low-Light-Satellite-Image-Enhancement](/Inference/paper_case1/_mnt_d_Seaport_satellite_images_lng_3.110000_lat_50.560000_sentinel_2_rgb.png)
+
+**Test case 1**
 ![Result 1 Edge-Computing-Low-Light-Satellite-Image-Enhancement](/Inference/paper_case1/_mnt_d_Seaport_satellite_images_lng_3.110000_lat_50.560000_sentinel_2_rgb_enhanced_onboard.png)
+
+
+**Test case 2**
+![Result 2 Edge-Computing-Low-Light-Satellite-Image-Enhancement](/Inference/paper_case2/_mnt_d_Seaport_satellite_images_lng_4.240000_lat_51.520000_sentinel_2_rgb_enhanced_onboard.png)
+
+**Test case 3**
+![Result 3 Edge-Computing-Low-Light-Satellite-Image-Enhancement](/Inference/paper_case3/_mnt_d_Seaport_satellite_images_lng_5.270000_lat_52.590000_landsat_8_rgb_enhanced_onboard.png)
 
 Please reference this paper in your manuscript when you use this source code.
