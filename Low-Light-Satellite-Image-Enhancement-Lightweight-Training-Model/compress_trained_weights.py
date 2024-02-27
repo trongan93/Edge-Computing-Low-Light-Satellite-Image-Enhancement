@@ -12,7 +12,6 @@ device = torch.device('cpu')
 
 scale_factor = 1
 DCE_net = model.simpleEnhanceNet(scale_factor).to(device) # proposed training model
-# DCE_net = model.EnhanceNet(scale_factor).to(device)  # original DCENet
 DCE_net.load_state_dict(torch.load(LOAD_PATH))
 
 # print("Structure : \n", DCE_net)
@@ -44,7 +43,7 @@ print("weigth_list : ", weight_list)
 
 # exit()
 quantized_scale = 64
-with open("qZeroDCE_Weight.h", "w") as f:
+with open("q_Train_Model_Weight.h", "w") as f:
     print("export ", weight_list[0])
     f.write("const short conv1_w[864] = {\n")
     w = DCE_net.state_dict()[weight_list[0]].to(device).numpy()
