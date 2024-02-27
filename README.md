@@ -13,6 +13,10 @@ URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10412123&isnumber
 **Step 1**: Training **Proposed Lightweight Model** 
 [lowlight_train.py](/Low-Light-Satellite-Image-Enhancement-Lightweight-Training-Model/lowlight_train.py)
 
+**Step 2**: Compress the training weight **Post-training quantization**
+[compress_trained_weights.py](/Low-Light-Satellite-Image-Enhancement-Lightweight-Training-Model/compress_trained_weights.py)
+
+
 
 
 Please reference this paper in your manuscript when you use this source code.
